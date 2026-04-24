@@ -14,3 +14,9 @@ Manipulated Linux security perimeters to isolate files from unauthorized system 
 * Audited default system permissions using `ls -l`.
 * Executed octal permission modifications using `chmod`.
 * **Execution Proof:** Successfully converted a standard text file into an executable Bash script and bypassed the kernel's default execution block by applying `chmod 700` (granting strict Owner-only Read/Write/Execute authority).
+
+### Module 3: Text Manipulation & Log Analysis
+Simulated enterprise log extraction and data filtering pipelines.
+* Generated mock infrastructure logs utilizing `echo` and redirection operators (`>`).
+* Retrieved and audited raw data using `cat`, `head`, and `tail`.
+* **Execution Proof:** Successfully constructed a data pipeline using `grep` and the pipe operator (`|`) to instantly isolate the most recent critical system failure from a continuous text stream.
