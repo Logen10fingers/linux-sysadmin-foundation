@@ -26,3 +26,9 @@ Identified and terminated rogue system processes to prevent CPU/Memory exhaustio
 * Generated background daemon processes using the `&` operator.
 * Monitored live system memory and CPU consumption using `ps aux`.
 * **Execution Proof:** Successfully isolated a background process ID (PID) and executed a kernel-level termination using the `kill -9` (SIGKILL) command.
+
+### Module 5: Secure Shell (SSH) & Cryptography
+Generated asymmetric cryptographic keys for secure cloud server authentication.
+* Forged an ED25519 key pair using `ssh-keygen`.
+* Audited hidden directory perimeters (`ls -l ~/.ssh`) to verify the Private Key was automatically restricted to octal `600` (`-rw-------`) permissions by the kernel.
+* Extracted the Public Key string using `cat` for future AWS EC2 deployment.
