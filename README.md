@@ -37,3 +37,10 @@ Generated asymmetric cryptographic keys for secure cloud server authentication.
 Executed command-line network diagnostics to verify outbound routing and API availability.
 * Validated external internet stability and ICMP routing pathways using `ping`, specifically monitoring latency and packet loss metrics.
 * Interrogated external web servers at the application layer using `curl -I` to extract and verify HTTP 200 status codes without rendering HTML payloads.
+
+### Module 7: Package Management & Privilege Escalation
+Executed kernel-level administrative commands to update system repositories and provision new software.
+* Escalated standard user permissions temporarily using `sudo`.
+* Synchronized the local package catalog with global Ubuntu distribution servers using `apt update`.
+* Automated the installation of the `tree` utility using `apt install -y` to mathematically bypass manual user confirmation prompts.
+* Validated the software deployment by visually mapping the local directory architecture.
